@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <BuildTasksDirectory Condition=" '$(BuildTasksDirectory)' == ''">$(MSBuildProgramFiles32)\MSBuild\Microsoft\Dynamics\AX</BuildTasksDirectory>
+    <Model>ContosoCustomizations</Model>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <OutputPath>bin</OutputPath>
+    <SchemaVersion>2.0</SchemaVersion>
+    <GenerateCrossReferences>True</GenerateCrossReferences>
+    <ProjectGuid>{7b260311-9e51-4a6b-aff7-b3f21d0b0e0a}</ProjectGuid>
+    <Name>CodeExamples</Name>
+    <RootNamespace>ContosoCustomizations</RootNamespace>
+    <StartupObject>InsertClass</StartupObject>
+    <StartupType>Class</StartupType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Configuration>Debug</Configuration>
+    <DBSyncInBuild>False</DBSyncInBuild>
+    <GenerateFormAdaptors>False</GenerateFormAdaptors>
+    <Company>
+    </Company>
+    <Partition>initial</Partition>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DataEntityExpandParentChildRelations>False</DataEntityExpandParentChildRelations>
+    <DataEntityUseLabelTextAsFieldName>False</DataEntityUseLabelTextAsFieldName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="AxClass\ArrayClass">
+      <SubType>Content</SubType>
+      <Name>ArrayClass</Name>
+      <Link>Classes\ArrayClass</Link>
+    </Content>
+    <Content Include="AxClass\ArrayClass2">
+      <SubType>Content</SubType>
+      <Name>ArrayClass2</Name>
+      <Link>Classes\ArrayClass2</Link>
+    </Content>
+    <Content Include="AxClass\CarClass">
+      <SubType>Content</SubType>
+      <Name>CarClass</Name>
+      <Link>Classes\CarClass</Link>
+    </Content>
+    <Content Include="AxClass\ConstantValuesClass">
+      <SubType>Content</SubType>
+      <Name>ConstantValuesClass</Name>
+      <Link>Classes\ConstantValuesClass</Link>
+    </Content>
+    <Content Include="AxClass\dbfmVehicleEntry">
+      <SubType>Content</SubType>
+      <Name>dbfmVehicleEntry</Name>
+      <Link>Classes\dbfmVehicleEntry</Link>
+    </Content>
+    <Content Include="AxClass\DeclarevaribleClass">
+      <SubType>Content</SubType>
+      <Name>DeclarevaribleClass</Name>
+      <Link>Classes\DeclarevaribleClass</Link>
+    </Content>
+    <Content Include="AxClass\doWhileClass">
+      <SubType>Content</SubType>
+      <Name>doWhileClass</Name>
+      <Link>Classes\doWhileClass</Link>
+    </Content>
+    <Content Include="AxClass\ExceptionHandelingInSideTransClass">
+      <SubType>Content</SubType>
+      <Name>ExceptionHandelingInSideTransClass</Name>
+      <Link>Classes\ExceptionHandelingInSideTransClass</Link>
+    </Content>
+    <Content Include="AxClass\ExceptionhandlingClass">
+      <SubType>Content</SubType>
+      <Name>ExceptionhandlingClass</Name>
+      <Link>Classes\ExceptionhandlingClass</Link>
+    </Content>
+    <Content Include="AxClass\ExceptionHandlingMessageClass">
+      <SubType>Content</SubType>
+      <Name>ExceptionHandlingMessageClass</Name>
+      <Link>Classes\ExceptionHandlingMessageClass</Link>
+    </Content>
+    <Content Include="AxClass\ForLoopClass">
+      <SubType>Content</SubType>
+      <Name>ForLoopClass</Name>
+      <Link>Classes\ForLoopClass</Link>
+    </Content>
+    <Content Include="AxClass\IfStatementClass">
+      <SubType>Content</SubType>
+      <Name>IfStatementClass</Name>
+      <Link>Classes\IfStatementClass</Link>
+    </Content>
+    <Content Include="AxClass\InsertClass">
+      <SubType>Content</SubType>
+      <Name>InsertClass</Name>
+      <Link>Classes\InsertClass</Link>
+    </Content>
+    <Content Include="AxClass\JoinClass">
+      <SubType>Content</SubType>
+      <Name>JoinClass</Name>
+      <Link>Classes\JoinClass</Link>
+    </Content>
+    <Content Include="AxClass\OverridingExampleClass">
+      <SubType>Content</SubType>
+      <Name>OverridingExampleClass</Name>
+      <Link>Classes\OverridingExampleClass</Link>
+    </Content>
+    <Content Include="AxClass\OverridingExampleSubClass">
+      <SubType>Content</SubType>
+      <Name>OverridingExampleSubClass</Name>
+      <Link>Classes\OverridingExampleSubClass</Link>
+    </Content>
+    <Content Include="AxClass\PrintClass">
+      <SubType>Content</SubType>
+      <Name>PrintClass</Name>
+      <Link>Classes\PrintClass</Link>
+    </Content>
+    <Content Include="AxClass\PrintExampleClass">
+      <SubType>Content</SubType>
+      <Name>PrintExampleClass</Name>
+      <Link>Classes\PrintExampleClass</Link>
+    </Content>
+    <Content Include="AxClass\SelectStatementClass">
+      <SubType>Content</SubType>
+      <Name>SelectStatementClass</Name>
+      <Link>Classes\SelectStatementClass</Link>
+    </Content>
+    <Content Include="AxClass\SwitchStatementClass">
+      <SubType>Content</SubType>
+      <Name>SwitchStatementClass</Name>
+      <Link>Classes\SwitchStatementClass</Link>
+    </Content>
+    <Content Include="AxClass\TernaryOperatorClass">
+      <SubType>Content</SubType>
+      <Name>TernaryOperatorClass</Name>
+      <Link>Classes\TernaryOperatorClass</Link>
+    </Content>
+    <Content Include="AxClass\UpdateClass">
+      <SubType>Content</SubType>
+      <Name>UpdateClass</Name>
+      <Link>Classes\UpdateClass</Link>
+    </Content>
+    <Content Include="AxClass\VehicleClass">
+      <SubType>Content</SubType>
+      <Name>VehicleClass</Name>
+      <Link>Classes\VehicleClass</Link>
+    </Content>
+    <Content Include="AxClass\VehicleTrcukClass">
+      <SubType>Content</SubType>
+      <Name>VehicleTrcukClass</Name>
+      <Link>Classes\VehicleTrcukClass</Link>
+    </Content>
+    <Content Include="AxClass\WhileLoopClass">
+      <SubType>Content</SubType>
+      <Name>WhileLoopClass</Name>
+      <Link>Classes\WhileLoopClass</Link>
+    </Content>
+    <Content Include="AxClass\WhileSelectClass">
+      <SubType>Content</SubType>
+      <Name>WhileSelectClass</Name>
+      <Link>Classes\WhileSelectClass</Link>
+    </Content>
+    <Content Include="AxClass\WhileSelectClass2">
+      <SubType>Content</SubType>
+      <Name>WhileSelectClass2</Name>
+      <Link>Classes\WhileSelectClass2</Link>
+    </Content>
+    <Content Include="AxEdt\dbMake">
+      <SubType>Content</SubType>
+      <Name>dbMake</Name>
+      <Link>EDT Strings\dbMake</Link>
+    </Content>
+    <Content Include="AxEdt\dbModel">
+      <SubType>Content</SubType>
+      <Name>dbModel</Name>
+      <Link>EDT Strings\dbModel</Link>
+    </Content>
+    <Content Include="AxEdt\dbVIN">
+      <SubType>Content</SubType>
+      <Name>dbVIN</Name>
+      <Link>EDT Strings\dbVIN</Link>
+    </Content>
+    <Content Include="AxTable\dbVehicleTable">
+      <SubType>Content</SubType>
+      <Name>dbVehicleTable</Name>
+      <Link>Tables\dbVehicleTable</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="EDT Integers\" />
+    <Folder Include="EDT Strings\" />
+    <Folder Include="Tables\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(BuildTasksDirectory)\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
+</Project>
